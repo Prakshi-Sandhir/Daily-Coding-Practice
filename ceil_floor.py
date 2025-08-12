@@ -1,4 +1,3 @@
-#https://www.geeksforgeeks.org/problems/ceil-the-floor2802/1
 #User function Template for python3
 
 class Solution:
