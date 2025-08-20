@@ -2,8 +2,8 @@
 class Solution:
     def maximumSumSubarray (self,arr,k):
         n=len(arr)
-        current_element=0
-        last_element=k-1
+        # current_element=0
+        # last_element=k-1
         window_sum=sum(arr[:k])
         max_sum=window_sum
         for i in range(n-k):
@@ -11,4 +11,4 @@ class Solution:
             if max_sum<window_sum:
                 max_sum=window_sum
         return max_sum
-                
+        
