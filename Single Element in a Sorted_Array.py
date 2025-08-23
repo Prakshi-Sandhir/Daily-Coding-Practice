@@ -1,8 +1,6 @@
 # https://leetcode.com/problems/single-element-in-a-sorted-array/
 class Solution(object):
     def singleNonDuplicate(self, nums):
-        if not nums:
-            return
         tem = len(nums)
         st, lst = 0, tem - 1
         count = 0
