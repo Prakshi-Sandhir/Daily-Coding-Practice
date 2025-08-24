@@ -2,7 +2,7 @@
 class Solution:
     def maximumSumSubarray (self,arr,k):
         n=len(arr)
-        # current_element=0
+        # current_element
         # last_element=k-1
         window_sum=sum(arr[:k])
         max_sum=window_sum
