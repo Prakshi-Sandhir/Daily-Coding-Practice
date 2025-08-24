@@ -18,4 +18,6 @@ class Solution(object):
                     st = mid + 1
                 else:
                     lst = mid - 1
+
+        return -1
       
