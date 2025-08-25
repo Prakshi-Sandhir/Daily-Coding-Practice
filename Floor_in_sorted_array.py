@@ -12,9 +12,9 @@ class Solution:
                  st=mid+1
                  
             elif arr[mid]> x:
-                # lis.append(mid)
+                
                 lst=mid-1
-        # print(lis)
+    
         if len(lis)==0:
             return -1
         return lis[-1]
