@@ -9,7 +9,7 @@ class Solution(object):
         # for i in range(1,n+1):
         #     m=isBadVersion(i)
         #     if m==True:
-     #         return i
+            #  return i
         ans=0
         st,lst=1,n
         while st<=lst:
