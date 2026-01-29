@@ -1,4 +1,3 @@
-# https://leetcode.com/problems/search-insert-position/
 class Solution(object):
     def searchInsert(self, arr, target):
         tem=len(arr)
